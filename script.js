@@ -31,7 +31,7 @@ accboxes.forEach((val) => {                // Here we are accessing each button 
       val.innerText = "O";                 // Inserting O value on button which will click.
       turnO = false;                      
     } else {
-      val.innerText = "X";                // Inserting X value on button which will click.
+      val.innerText = "X";              // Inserting X value on button which will click.
       turnO = true;
     }
     val.disabled = true;                  // We are disabling button here,Beacuse it was creating loop whole.
